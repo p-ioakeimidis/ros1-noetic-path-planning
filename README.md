@@ -66,7 +66,7 @@ Sensor Data + Odometry
 
 ---
 
-## 🗺 Features
+## Features
 
 * Global path planning using **Navfn (Dijkstra-based)**
 * Local obstacle avoidance using **DWA (Dynamic Window Approach)**
@@ -124,16 +124,17 @@ source devel/setup.bash
 roslaunch first_robot gazebo.launch
 ```
 
-### 2. Start EKF localization (from slam repo)
+### 2. Start EKF localization (from localization repo)
 
 ```bash id="m4q1bt"
+roslaunch local_localization local_ekf.launch
 roslaunch global_localization global_ekf.launch
 ```
 
 ### 3. Start navigation stack
 
 ```bash id="x7w9cp"
-roslaunch navigation_stack navigation.launch
+roslaunch move_base move_base.launch
 ```
 
 ---
@@ -201,7 +202,7 @@ The robot will:
 
 ---
 
-## 👤 Author
+## Author
 
 Developed by **Panagiotis Ioakeimidis**
 Focus: Robotics, SLAM, State Estimation, Autonomous Navigation
