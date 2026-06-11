@@ -51,6 +51,7 @@ Sensor Data + Odometry
 ```
 <img width="780" height="319" alt="image" src="https://github.com/user-attachments/assets/52d312a4-b562-4db7-ae9c-b54c780dd377" />
 
+Source: http://wiki.ros.org/move_base
 ---
 
 ## Robot Model
