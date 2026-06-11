@@ -203,5 +203,5 @@ The robot will:
 
 ## 👤 Author
 
-Developed by **[Your Name]**
+Developed by **Panagiotis Ioakeimidis**
 Focus: Robotics, SLAM, State Estimation, Autonomous Navigation
