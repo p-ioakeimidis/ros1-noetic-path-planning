@@ -10,7 +10,7 @@ This project is designed to run inside a single ROS catkin workspace:
 
 ```text id="a1q8x7"
 ~/catkin_ws/src/
-├── ros1-noetic-slam/             # EKF localization system (existing repo)
+├── ros1-noetic-localization/             # EKF localization system (existing repo)
 ├── ros1-noetic-path-planning/    # THIS repository (navigation stack)
 ```
 
